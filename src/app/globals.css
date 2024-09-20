@@ -1,42 +1,49 @@
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+ 
+ 
+ .arobgcolor{
+  background: #B68E48;
+ }
+ 
+ 
+ 
+ .navbanner{
+
+  background-image: url("../../public/images/Banner/banner.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+ 
+ }
+.footer{
+  background: #B68E48;
+  color: #fff;
+}
+a{
+   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.carousel-container {
+  padding: 20px 0;
 }
 
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
+.product-card {
+  text-align: center;
+  padding: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.product-card img {
+  max-width: 100%;
+  height: auto;
 }
 
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+.product-card h5 {
+  margin-top: 10px;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+.herobanenr{
+  background-image: url("../../public/images/Banner/herobanner.png");
+  height: 300px;
+  border-radius: 20px;
 }
